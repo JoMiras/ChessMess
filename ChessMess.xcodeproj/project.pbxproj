@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7E808F92A568D8A00DD6AE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E808F82A568D8A00DD6AE3 /* AppDelegate.swift */; };
-		C7E808FB2A568D8A00DD6AE3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7E808FA2A568D8A00DD6AE3 /* GameScene.sks */; };
-		C7E808FD2A568D8A00DD6AE3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7E808FC2A568D8A00DD6AE3 /* Actions.sks */; };
+		C7CB21DB2A8045F30086283C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21DA2A8045F30086283C /* GameViewController.swift */; };
+		C7CB21DD2A8046380086283C /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21DC2A8046380086283C /* Board.swift */; };
+		C7CB21DF2A80464E0086283C /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21DE2A80464E0086283C /* Piece.swift */; };
+		C7CB21E12A8046A60086283C /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21E02A8046A60086283C /* GameController.swift */; };
+		C7CB21E32A8046BC0086283C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21E22A8046BC0086283C /* Extensions.swift */; };
+		C7CB21E52A8046C60086283C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21E42A8046C60086283C /* Constants.swift */; };
 		C7E808FF2A568D8A00DD6AE3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E808FE2A568D8A00DD6AE3 /* GameScene.swift */; };
-		C7E809012A568D8A00DD6AE3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E809002A568D8A00DD6AE3 /* GameViewController.swift */; };
-		C7E809042A568D8A00DD6AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E809022A568D8A00DD6AE3 /* Main.storyboard */; };
-		C7E809062A568D8B00DD6AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E809052A568D8B00DD6AE3 /* Assets.xcassets */; };
-		C7E809092A568D8B00DD6AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E809072A568D8B00DD6AE3 /* LaunchScreen.storyboard */; };
 		C7E809132A568D8B00DD6AE3 /* ChessMessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E809122A568D8B00DD6AE3 /* ChessMessTests.swift */; };
 		C7E8091D2A568D8B00DD6AE3 /* ChessMessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8091C2A568D8B00DD6AE3 /* ChessMessUITests.swift */; };
 		C7E8091F2A568D8B00DD6AE3 /* ChessMessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8091E2A568D8B00DD6AE3 /* ChessMessUITestsLaunchTests.swift */; };
@@ -38,15 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7CB21DA2A8045F30086283C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C7CB21DC2A8046380086283C /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		C7CB21DE2A80464E0086283C /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		C7CB21E02A8046A60086283C /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		C7CB21E22A8046BC0086283C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C7CB21E42A8046C60086283C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C7E808F52A568D8A00DD6AE3 /* ChessMess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessMess.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7E808F82A568D8A00DD6AE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7E808FA2A568D8A00DD6AE3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		C7E808FC2A568D8A00DD6AE3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		C7E808FE2A568D8A00DD6AE3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		C7E809002A568D8A00DD6AE3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		C7E809032A568D8A00DD6AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C7E809052A568D8B00DD6AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C7E809082A568D8B00DD6AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7E8090E2A568D8B00DD6AE3 /* ChessMessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessMessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E809122A568D8B00DD6AE3 /* ChessMessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessMessTests.swift; sourceTree = "<group>"; };
 		C7E809182A568D8B00DD6AE3 /* ChessMessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessMessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,12 +77,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7CB21D12A8045000086283C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7CB21DC2A8046380086283C /* Board.swift */,
+				C7CB21DE2A80464E0086283C /* Piece.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7CB21D22A8045130086283C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7E808FE2A568D8A00DD6AE3 /* GameScene.swift */,
+				C7CB21DA2A8045F30086283C /* GameViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7CB21D32A8045190086283C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7CB21E02A8046A60086283C /* GameController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C7CB21D62A8045480086283C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C7CB21E22A8046BC0086283C /* Extensions.swift */,
+				C7CB21E42A8046C60086283C /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C7CB21D72A8045570086283C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7CB21D82A80455F0086283C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7CB21D92A8045660086283C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E809112A568D8B00DD6AE3 /* ChessMessTests */,
+				C7E8091B2A568D8B00DD6AE3 /* ChessMessUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		C7E808EC2A568D8A00DD6AE3 = {
 			isa = PBXGroup;
 			children = (
-				C7E808F72A568D8A00DD6AE3 /* ChessMess */,
-				C7E809112A568D8B00DD6AE3 /* ChessMessTests */,
-				C7E8091B2A568D8B00DD6AE3 /* ChessMessUITests */,
+				C7CB21D92A8045660086283C /* Tests */,
+				C7CB21D82A80455F0086283C /* Supporting Files */,
+				C7CB21D72A8045570086283C /* Resources */,
+				C7CB21D62A8045480086283C /* Helpers */,
+				C7CB21D32A8045190086283C /* Controllers */,
+				C7CB21D22A8045130086283C /* Views */,
+				C7CB21D12A8045000086283C /* Models */,
 				C7E808F62A568D8A00DD6AE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,21 +157,6 @@
 				C7E809182A568D8B00DD6AE3 /* ChessMessUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C7E808F72A568D8A00DD6AE3 /* ChessMess */ = {
-			isa = PBXGroup;
-			children = (
-				C7E808F82A568D8A00DD6AE3 /* AppDelegate.swift */,
-				C7E808FA2A568D8A00DD6AE3 /* GameScene.sks */,
-				C7E808FC2A568D8A00DD6AE3 /* Actions.sks */,
-				C7E808FE2A568D8A00DD6AE3 /* GameScene.swift */,
-				C7E809002A568D8A00DD6AE3 /* GameViewController.swift */,
-				C7E809022A568D8A00DD6AE3 /* Main.storyboard */,
-				C7E809052A568D8B00DD6AE3 /* Assets.xcassets */,
-				C7E809072A568D8B00DD6AE3 /* LaunchScreen.storyboard */,
-			);
-			path = ChessMess;
 			sourceTree = "<group>";
 		};
 		C7E809112A568D8B00DD6AE3 /* ChessMessTests */ = {
@@ -235,11 +280,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E809042A568D8A00DD6AE3 /* Main.storyboard in Resources */,
-				C7E808FB2A568D8A00DD6AE3 /* GameScene.sks in Resources */,
-				C7E809062A568D8B00DD6AE3 /* Assets.xcassets in Resources */,
-				C7E809092A568D8B00DD6AE3 /* LaunchScreen.storyboard in Resources */,
-				C7E808FD2A568D8A00DD6AE3 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CB21DF2A80464E0086283C /* Piece.swift in Sources */,
+				C7CB21E32A8046BC0086283C /* Extensions.swift in Sources */,
+				C7CB21E12A8046A60086283C /* GameController.swift in Sources */,
+				C7CB21DB2A8045F30086283C /* GameViewController.swift in Sources */,
+				C7CB21E52A8046C60086283C /* Constants.swift in Sources */,
 				C7E808FF2A568D8A00DD6AE3 /* GameScene.swift in Sources */,
-				C7E809012A568D8A00DD6AE3 /* GameViewController.swift in Sources */,
-				C7E808F92A568D8A00DD6AE3 /* AppDelegate.swift in Sources */,
+				C7CB21DD2A8046380086283C /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,25 +345,6 @@
 			targetProxy = C7E809192A568D8B00DD6AE3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C7E809022A568D8A00DD6AE3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7E809032A568D8A00DD6AE3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C7E809072A568D8B00DD6AE3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7E809082A568D8B00DD6AE3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C7E809202A568D8B00DD6AE3 /* Debug */ = {
