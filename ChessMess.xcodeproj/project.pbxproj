@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C7CB21DB2A8045F30086283C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21DA2A8045F30086283C /* GameViewController.swift */; };
-		C7CB21DD2A8046380086283C /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21DC2A8046380086283C /* Board.swift */; };
-		C7CB21DF2A80464E0086283C /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21DE2A80464E0086283C /* Piece.swift */; };
+		C7CB21DD2A8046380086283C /* ChessBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21DC2A8046380086283C /* ChessBoard.swift */; };
 		C7CB21E12A8046A60086283C /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21E02A8046A60086283C /* GameController.swift */; };
 		C7CB21E32A8046BC0086283C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21E22A8046BC0086283C /* Extensions.swift */; };
 		C7CB21E52A8046C60086283C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB21E42A8046C60086283C /* Constants.swift */; };
@@ -38,8 +37,7 @@
 
 /* Begin PBXFileReference section */
 		C7CB21DA2A8045F30086283C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		C7CB21DC2A8046380086283C /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
-		C7CB21DE2A80464E0086283C /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		C7CB21DC2A8046380086283C /* ChessBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoard.swift; sourceTree = "<group>"; };
 		C7CB21E02A8046A60086283C /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		C7CB21E22A8046BC0086283C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C7CB21E42A8046C60086283C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -80,8 +78,7 @@
 		C7CB21D12A8045000086283C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C7CB21DC2A8046380086283C /* Board.swift */,
-				C7CB21DE2A80464E0086283C /* Piece.swift */,
+				C7CB21DC2A8046380086283C /* ChessBoard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -304,13 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7CB21DF2A80464E0086283C /* Piece.swift in Sources */,
 				C7CB21E32A8046BC0086283C /* Extensions.swift in Sources */,
 				C7CB21E12A8046A60086283C /* GameController.swift in Sources */,
 				C7CB21DB2A8045F30086283C /* GameViewController.swift in Sources */,
 				C7CB21E52A8046C60086283C /* Constants.swift in Sources */,
 				C7E808FF2A568D8A00DD6AE3 /* GameScene.swift in Sources */,
-				C7CB21DD2A8046380086283C /* Board.swift in Sources */,
+				C7CB21DD2A8046380086283C /* ChessBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
