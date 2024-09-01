@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70827D02C82FC4E007D3C25 /* ChessPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70827CF2C82FC4E007D3C25 /* ChessPiece.swift */; };
 		C735E18A2C77181900F6C100 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = C735E1892C77181900F6C100 /* Board.swift */; };
+		C752F2AB2C844426007E7201 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C752F2AA2C844426007E7201 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C70827CF2C82FC4E007D3C25 /* ChessPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessPiece.swift; sourceTree = "<group>"; };
 		C735E1882C77181900F6C100 /* ChessMess-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChessMess-Bridging-Header.h"; sourceTree = "<group>"; };
 		C735E1892C77181900F6C100 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		C752F2AA2C844426007E7201 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		C7E808F52A568D8A00DD6AE3 /* ChessMess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessMess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E8090E2A568D8B00DD6AE3 /* ChessMessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessMessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E809182A568D8B00DD6AE3 /* ChessMessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessMessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +67,7 @@
 		C735E1872C7717EF00F6C100 /* Chess */ = {
 			isa = PBXGroup;
 			children = (
+				C70827CF2C82FC4E007D3C25 /* ChessPiece.swift */,
 				C735E1892C77181900F6C100 /* Board.swift */,
 				C735E1882C77181900F6C100 /* ChessMess-Bridging-Header.h */,
 			);
@@ -72,6 +77,7 @@
 		C7E808EC2A568D8A00DD6AE3 = {
 			isa = PBXGroup;
 			children = (
+				C752F2AA2C844426007E7201 /* Game.swift */,
 				C735E1872C7717EF00F6C100 /* Chess */,
 				C7E808F62A568D8A00DD6AE3 /* Products */,
 			);
@@ -217,6 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C735E18A2C77181900F6C100 /* Board.swift in Sources */,
+				C752F2AB2C844426007E7201 /* Game.swift in Sources */,
+				C70827D02C82FC4E007D3C25 /* ChessPiece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
