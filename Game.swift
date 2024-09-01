@@ -1,5 +1,5 @@
 //
-//  ChessPiece.swift
+//  Game.swift
 //  ChessMess
 //
 //  Created by Jonah Mirasol on 2024/8/31.
